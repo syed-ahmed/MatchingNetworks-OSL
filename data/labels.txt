@@ -1,0 +1,6 @@
+power_on
+power_off
+brew_on
+brew_off
+steam_on
+steam_off

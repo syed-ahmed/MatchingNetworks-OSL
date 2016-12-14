@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/luna/Desktop/osl-soundtouch/model/train/model.ckpt-0"
+all_model_checkpoint_paths: "/Users/luna/Desktop/osl-soundtouch/model/train/model.ckpt-0"
