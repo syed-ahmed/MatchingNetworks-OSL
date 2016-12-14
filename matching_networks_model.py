@@ -83,8 +83,16 @@ class MatchingNetworks(object):
         # Global step Tensor.
         self.global_step = None
 
-        self.batch_s_runner = None
-        self.batch_b_runner = None
+        self.runner = None
+
+        self.prediction = None
+
+        self.train_accuracy = None
+
+        self.test_acc = None
+
+        self.test_summ = None
+
 
     def is_training(self):
         """Returns true if the model is built for training mode."""
@@ -104,11 +112,13 @@ class MatchingNetworks(object):
             support_set_sounds = tf.placeholder(dtype=tf.string, shape=[], name="support_set_feed")
             test_sound = tf.placeholder(dtype=tf.string, shape=[], name="test_feed")
         else:
-            with tf.device("/cpu:0"):
-                self.batch_s_runner = input_ops.CustomRunner(self.dataset, self.config.batch_size_s)
-                self.batch_b_runner = input_ops.CustomRunner(self.dataset, self.config.batch_size_b)
-                self.support_set_sounds, self.support_set_labels = self.batch_s_runner.get_inputs()
-                self.test_sound, self.test_sound_labels = self.batch_b_runner.get_inputs()
+            self.support_set_sounds = tf.placeholder(dtype=tf.float32,
+                                                     shape=[self.config.batch_size_s * self.config.num_classes, 128, 64,
+                                                            1])
+            self.support_set_labels = tf.placeholder(dtype=tf.int64,
+                                                     shape=[self.config.batch_size_s * self.config.num_classes, 1])
+            self.test_sound = tf.placeholder(dtype=tf.float32, shape=[self.config.batch_size_b, 128, 64, 1])
+            self.test_sound_labels = tf.placeholder(dtype=tf.int64, shape=[self.config.batch_size_b, 1])
 
     def build_fully_conditional_embedding_g(self):
         """Builds the fully conditional embedding g
@@ -192,10 +202,10 @@ class MatchingNetworks(object):
             zero_state = cell.zero_state(batch_size=sound_embeddings.get_shape()[0], dtype=tf.float32)
 
             output, initial_state = cell(sound_embeddings, zero_state)
-            attention = tf.nn.softmax(tf.squeeze(tf.mul(self.g_embedding, output)))
+
+            attention = tf.nn.softmax((tf.matmul(self.g_embedding[0], tf.transpose(output))))
             output = tf.add(model_output, output)
-            read_out = tf.reshape(tf.reduce_sum(tf.matmul(attention, tf.squeeze(tf.transpose(self.g_embedding)))),
-                                  [1, 1])
+            read_out = tf.reduce_sum(tf.mul(attention, self.g_embedding[0]), 0, keep_dims=True)
             h_concatenated = tf.concat(1, [output, read_out])
 
             scope.reuse_variables()
@@ -203,10 +213,9 @@ class MatchingNetworks(object):
 
             for i in xrange(self.config.lstm_processing_steps):
                 output, initial_state = cell(sound_embeddings, h_concatenated)
-                attention = tf.nn.softmax(tf.squeeze(tf.mul(self.g_embedding, output)))
+                attention = tf.nn.softmax((tf.matmul(self.g_embedding[0], tf.transpose(output))))
                 output = tf.add(model_output, output)
-                read_out = tf.reshape(tf.reduce_sum(tf.matmul(attention, tf.squeeze(tf.transpose(self.g_embedding)))),
-                                      [1, 1])
+                read_out = tf.reduce_sum(tf.mul(attention, self.g_embedding[0]), 0, keep_dims=True)
                 h_concatenated = tf.concat(1, [output, read_out])
 
         self.f_embedding = output
@@ -241,19 +250,32 @@ class MatchingNetworks(object):
         """
 
         with tf.variable_scope("logits") as logits_scope:
-            logits = tf.nn.softmax(self.cosine_similarities)
-            logits = logits * tf.contrib.layers.one_hot_encoding(tf.squeeze(self.support_set_labels), 5)
-            logits = tf.reduce_sum(logits, 1, keep_dims=True)
-            logits = tf.cast(tf.expand_dims(tf.argmax(logits, 0),0), dtype=tf.float32)
+            logits = tf.nn.softmax(self.cosine_similarities, dim=0)
 
-        tf.contrib.slim.losses.softmax_cross_entropy(logits, tf.cast(self.test_sound_labels, tf.float32))
+            logits = logits * tf.contrib.slim.one_hot_encoding(tf.squeeze(self.support_set_labels), self.config.num_classes)
+            logits = tf.reduce_sum(logits, 0, keep_dims=True)
+            self.prediction = tf.nn.in_top_k(logits,tf.squeeze(self.test_sound_labels, squeeze_dims=[0]),1)
+
+            #accuracy calc
+            self.train_accuracy = tf.reduce_mean(tf.to_float(self.prediction))
+            tf.scalar_summary('train avg accuracy', self.train_accuracy)
+
+            self.test_acc = tf.reduce_mean(tf.to_float(self.prediction))
+            self.test_summ = tf.scalar_summary('test avg accuracy', self.test_acc)
+
+
+            logits = tf.expand_dims(tf.cast(tf.argmax(logits, 1), dtype=tf.float32),0)
+
+        correct_label = tf.cast(self.test_sound_labels, dtype=tf.float32)
+
+        tf.contrib.slim.losses.softmax_cross_entropy(logits, correct_label)
         total_loss = tf.contrib.slim.losses.get_total_loss()
 
         # Add summaries.
-        tf.scalar_summary("loss", total_loss)
+        tf.scalar_summary("losses", total_loss)
+        # Add to TF collection for losses
+        tf.add_to_collection('losses', total_loss)
 
-        for var in tf.trainable_variables():
-            tf.histogram_summary(var.op.name, var)
 
         self.loss = total_loss
 

@@ -32,25 +32,11 @@ class ModelConfig(object):
         # Sound format ("wav").
         self.sound_format = "wav"
 
-        # Approximate number of values per input shard. Used to ensure sufficient
-        # mixing between shards in training.
-        self.values_per_input_shard = 90
-        # Minimum number of shards to keep in the input queue.
-        self.input_queue_capacity_factor = 2
-        # Number of threads for prefetching SequenceExample protos.
-        self.num_input_reader_threads = 1
-
-        # Name of the SequenceExample context feature containing image data.
-        self.image_feature_name = "image/data"
-        # Name of the SequenceExample feature list containing integer captions.
-        self.caption_feature_name = "image/caption_ids"
-
-        # Number of threads for image preprocessing. Should be a multiple of 2.
-        self.num_preprocess_threads = 4
 
         # Batch size.
-        self.batch_size_s = 5
+        self.batch_size_s = 1
         self.batch_size_b = 1
+        self.num_classes = 5
 
         # File containing an Inception v3 checkpoint to initialize the variables
         # of the Inception model. Must be provided when starting training for the

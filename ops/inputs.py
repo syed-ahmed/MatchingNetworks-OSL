@@ -79,14 +79,45 @@ def process_pickles_and_augment(directory, augment_percent, mode):
 def data_iterator(dataset, batch_size):
     """ A simple data iterator """
 
-    while True:
-        # shuffle labels and features
-        batch_sounds = []
-        batch_labels = []
+    # shuffle labels and features
+    batch_sounds = []
+    batch_labels = []
 
-        for key, value in dataset.iteritems():
+    for key, value in dataset.iteritems():
+        # give me five random indices between 0 and len of dataset
+        idxs = random.sample(range(0, len(value)), batch_size)
+
+        # get those images and append to batch_s_images
+        for i in idxs:
+            batch_sounds.append([value[i]])
+
+            # get those labels and append to batch_s_labels
+            batch_labels.append(int(key))
+
+    shuffled_index = range(len(batch_sounds))
+    random.seed(12345)
+    random.shuffle(shuffled_index)
+
+    batch_sounds = [batch_sounds[i] for i in shuffled_index]
+    batch_labels = [batch_labels[i] for i in shuffled_index]
+    batch_sounds = np.vstack(batch_sounds)
+
+    return batch_sounds, batch_labels
+
+def eval_data_iterator(dataset, eval_dataset, batch_size_s, batch_size_b):
+    """ A simple data iterator """
+
+    # shuffle labels and features
+    batch_sounds = []
+    batch_labels = []
+    test_sound = []
+    test_label = []
+
+    for key, value in dataset.iteritems():
+
+        if key == '0' or key == '1' or key == '2' or key == '3':
             # give me five random indices between 0 and len of dataset
-            idxs = random.sample(range(0, len(value)), batch_size)
+            idxs = random.sample(range(0, len(value)), batch_size_s)
 
             # get those images and append to batch_s_images
             for i in idxs:
@@ -95,15 +126,38 @@ def data_iterator(dataset, batch_size):
                 # get those labels and append to batch_s_labels
                 batch_labels.append(int(key))
 
-        shuffled_index = range(len(batch_sounds))
-        random.seed(12345)
-        random.shuffle(shuffled_index)
+    for key, value in eval_dataset.iteritems():
+        # give me 1 random indices between 0 and len of dataset
+        idxs = random.sample(range(0, len(value)), batch_size_b)
 
-        batch_sounds = [batch_sounds[i] for i in shuffled_index]
-        batch_labels = [batch_labels[i] for i in shuffled_index]
-        batch_sounds = np.vstack(batch_sounds)
+        # get those images and append to batch_s_images
+        for i in idxs:
+            batch_sounds.append([value[i]])
 
-        yield batch_sounds, batch_labels
+            # get those labels and append to batch_s_labels
+            batch_labels.append(int(key)-1)
+
+    for key, value in eval_dataset.iteritems():
+        # give me 1 random indices between 0 and len of dataset
+        idxs = random.sample(range(0, len(value)), 1)
+
+        # get those images and append to batch_s_images
+        for i in idxs:
+            test_sound.append([value[i]])
+
+            # get those labels and append to batch_s_labels
+            test_label.append(int(key)-1)
+
+    shuffled_index = range(len(batch_sounds))
+    random.seed(12345)
+    random.shuffle(shuffled_index)
+
+    batch_sounds = [batch_sounds[i] for i in shuffled_index]
+    batch_labels = [batch_labels[i] for i in shuffled_index]
+    batch_sounds = np.vstack(batch_sounds)
+    test_sound = np.vstack(test_sound)
+
+    return batch_sounds, batch_labels, test_sound, test_label
 
 
 class CustomRunner(object):
@@ -112,39 +166,58 @@ class CustomRunner(object):
         a queue full of data.
     """
 
-    def __init__(self, dataset, batch_size):
+    def __init__(self, dataset, batch_size_s, batch_size_b, num_classes):
         self.dataset = dataset
-        self.batch_size = batch_size
-        self.batch_sounds = tf.placeholder(dtype=tf.float32, shape=[128,64,1])
-        self.batch_labels = tf.placeholder(dtype=tf.int64, shape=[1])
+        self.num_classes = num_classes
+        self.batch_size_s = batch_size_s
+        self.batch_size_b = batch_size_b
+        self.batch_s_sounds = tf.placeholder(dtype=tf.float32, shape=[self.batch_size_s*self.num_classes, 128, 64, 1])
+        self.batch_s_labels = tf.placeholder(dtype=tf.int64, shape=[self.batch_size_s*self.num_classes, 1])
+        self.batch_b_sounds = tf.placeholder(dtype=tf.float32, shape=[self.batch_size_b, 128, 64, 1])
+        self.batch_b_labels = tf.placeholder(dtype=tf.int64, shape=[self.batch_size_b, 1])
 
         # The actual queue of data. The queue contains a vector for
         # the sound features, and a scalar label.
-        self.queue = tf.RandomShuffleQueue(shapes=[[128, 64, 1], [1]],
-                                           dtypes=[tf.float32, tf.int64],
-                                           capacity=16 * self.batch_size,
-                                           min_after_dequeue=8 * self.batch_size,)
+        self.s_queue = tf.RandomShuffleQueue(shapes=[[self.batch_size_s*self.num_classes, 128, 64, 1], [self.batch_size_s*self.num_classes, 1]],
+                                             dtypes=[tf.float32, tf.int64],
+                                             capacity=16 * self.batch_size_s,
+                                             min_after_dequeue=8 * self.batch_size_s)
+
+        self.b_queue = tf.RandomShuffleQueue(shapes=[[self.batch_size_b, 128, 64, 1], [self.batch_size_b, 1]],
+                                             dtypes=[tf.float32, tf.int64],
+                                             capacity=16 * self.batch_size_b,
+                                             min_after_dequeue=8 * self.batch_size_b)
 
         # The symbolic operation to add data to the queue
         # we could do some preprocessing here or do it in numpy. In this example
         # we do the scaling in numpy
-        self.enqueue_op = self.queue.enqueue([self.batch_sounds, self.batch_labels])
+        self.s_enqueue_op = self.s_queue.enqueue([self.batch_s_sounds, self.batch_s_labels])
+        self.b_enqueue_op = self.b_queue.enqueue([self.batch_b_sounds, self.batch_b_labels])
 
     def get_inputs(self):
         """
         Return's tensors containing a batch of images and labels
         """
-        sound_batch, labels_batch = self.queue.dequeue_many(self.batch_size)
-        return sound_batch, labels_batch
+        s_batch, s_labels = self.s_queue.dequeue_many(1)
+        b_batch, b_labels = self.b_queue.dequeue_many(1)
+        return tf.squeeze(s_batch, squeeze_dims=[0]), \
+               tf.squeeze(s_labels, squeeze_dims=[0]), \
+               tf.squeeze(b_batch, squeeze_dims=[0]), \
+               tf.squeeze(b_labels, squeeze_dims=[0])
 
     def thread_main(self, sess):
         """
         Function run on alternate thread. Basically, keep adding data to the queue.
         """
-        for sounds, labels in data_iterator(self.dataset, self.batch_size):
-            sess.run(self.enqueue_op, feed_dict={self.batch_sounds: sounds,
-                                                 self.batch_labels: labels
-                                                 })
+        for sounds, labels in data_iterator(self.dataset, self.batch_size_s):
+            sess.run(self.s_enqueue_op, feed_dict={self.batch_s_sounds: sounds,
+                                                   self.batch_s_labels: np.expand_dims(labels,1)
+                                                   })
+
+        for sounds, labels in data_iterator(self.dataset, self.batch_size_b):
+            sess.run(self.b_enqueue_op, feed_dict={self.batch_b_sounds: sounds[0],
+                                                   self.batch_b_labels: labels[0]
+                                                   })
 
     def start_threads(self, sess, n_threads=1):
         """ Start background threads to feed queue """
@@ -155,4 +228,3 @@ class CustomRunner(object):
             t.start()
             threads.append(t)
         return threads
-
