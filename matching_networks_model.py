@@ -22,7 +22,6 @@ from __future__ import division
 from __future__ import print_function
 
 import tensorflow as tf
-import tflearn
 
 from ops.embedding_function import full_context_embeddings_cnn
 from ops import inputs as input_ops
@@ -307,7 +306,7 @@ class MatchingNetworks(object):
         self.global_step = global_step
 
     def build(self):
-        """Creates all ops for training and evaluation."""
+        """Creates all ops for training and val."""
         self.build_inputs()
         self.build_fully_conditional_embedding_g()
         self.build_fully_conditional_embedding_f()

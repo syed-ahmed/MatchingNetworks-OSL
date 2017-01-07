@@ -31,11 +31,11 @@ import os
 FLAGS = tf.app.flags.FLAGS
 
 tf.flags.DEFINE_string("input_file_pattern",
-                       "/Users/luna/Desktop/osl-soundtouch/data/processed_data/train-?????-of-00005",
+                       "/Users/luna/workspace/MatchingNetworks-OSL/data/processed_data/train-?????-of-00005",
                        "File pattern of sharded TFRecord input files.")
 tf.flags.DEFINE_string("model_checkpoint_file", "",
                        "Path to pretrained models g and f.")
-tf.flags.DEFINE_string("train_dir", "/Users/luna/Desktop/osl-soundtouch/model/train",
+tf.flags.DEFINE_string("train_dir", "/Users/luna/workspace/MatchingNetworks-OSL/model/train",
                        "Directory for saving and loading model checkpoints.")
 tf.flags.DEFINE_boolean("train_model", True,
                         "Whether to train model submodel variables.")
@@ -51,23 +51,6 @@ tf.logging.set_verbosity(tf.logging.INFO)
 # Constants describing the training process.
 MOVING_AVERAGE_DECAY = 0.9999  # The decay to use for the moving average.
 LEARNING_RATE_DECAY_FACTOR = 0.1  # Learning rate decay factor.
-
-
-def moving_av(total_loss):
-    """
-    Generates moving average for all losses
-
-    Args:
-      total_loss: Total loss from loss().
-    Returns:
-      loss_averages_op: op for generating moving averages of losses.
-    """
-    # Compute the moving average of all individual losses and the total loss.
-    loss_averages = tf.train.ExponentialMovingAverage(0.9, name='avg')
-    losses = tf.get_collection('losses')
-    loss_averages_op = loss_averages.apply(losses + [total_loss])
-
-    return loss_averages_op
 
 
 def train_op_fun(total_loss, global_step):
@@ -143,9 +126,9 @@ def main(unused_argv):
     # Build the TensorFlow graph.
 
     with tf.Graph().as_default():
-        dataset = input_ops.process_pickles_and_augment("/Users/luna/Desktop/osl-soundtouch/data/processed_data", 0.02,
+        dataset = input_ops.process_pickles_and_augment("/Users/luna/workspace/MatchingNetworks-OSL/data/processed_data", 0.02,
                                                         'train')
-        eval_dataset = input_ops.process_pickles_and_augment("/Users/luna/Desktop/osl-soundtouch/data/processed_data", 0.02,
+        eval_dataset = input_ops.process_pickles_and_augment("/Users/luna/workspace/MatchingNetworks-OSL/data/processed_data", 0.02,
                                                         'validation')
 
         model = matching_networks_model.MatchingNetworks(

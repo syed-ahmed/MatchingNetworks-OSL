@@ -1,0 +1,1126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8d5f4205-45bb-482d-b79d-f718da64e778" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/build_omniglot_data.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/train-00001-of-00005.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/train-00002-of-00005.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/train-00003-of-00005.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/train-00004-of-00005.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/train-00005-of-00005.dat" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/data/processed_data/validation-00001-of-00001.dat" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/labels.txt" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/processed-data/labels.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_59.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_59.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_60.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_60.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_61.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_61.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_62.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_62.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_63.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_63.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_64.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_64.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_65.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_65.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_66.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_66.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_67.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_67.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_68.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_68.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_69.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_69.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_70.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_70.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_71.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_71.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_72.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_72.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_73.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_73.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_74.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_74.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_75.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_75.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_76.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_76.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_77.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_77.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_78.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_78.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_79.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_79.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_80.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_80.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_81.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_81.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_82.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_82.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_83.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_83.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_84.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_84.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_85.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_85.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_86.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_86.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_off/brew_off_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_off/brew_off_9.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_59.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_59.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_60.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_60.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_61.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_61.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_62.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_62.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_63.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_63.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_64.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_64.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_65.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_65.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_66.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_66.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_67.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_67.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_68.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_68.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_69.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_69.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_70.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_70.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_71.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_71.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_72.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_72.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_73.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_73.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_74.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_74.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_75.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_75.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_76.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_76.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_77.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_77.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_78.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_78.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_79.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_79.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_80.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_80.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_81.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_81.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_82.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_82.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_83.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_83.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_84.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_84.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_85.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_85.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_86.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_86.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_87.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_87.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/brew_on/brew_on_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/brew_on/brew_on_9.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_off/power_off_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_off/power_off_9.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_59.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_59.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/power_on/power_on_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/power_on/power_on_9.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_59.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_59.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_60.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_60.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_61.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_61.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_62.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_62.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_63.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_63.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_64.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_64.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_65.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_65.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_66.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_66.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_67.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_67.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_68.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_68.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_69.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_69.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_70.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_70.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_71.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_71.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_72.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_72.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_73.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_73.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_74.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_74.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_75.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_75.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_76.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_76.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_77.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_77.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_78.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_78.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_79.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_79.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_80.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_80.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_81.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_81.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_82.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_82.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_83.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_83.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_84.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_84.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_85.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_85.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/train/steam_on/steam_on_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/train/steam_on/steam_on_9.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_0.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_0.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_1.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_1.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_10.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_10.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_11.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_11.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_12.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_12.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_13.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_13.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_14.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_14.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_15.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_15.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_16.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_16.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_17.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_17.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_18.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_18.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_19.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_19.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_2.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_2.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_20.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_20.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_21.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_21.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_22.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_22.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_23.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_23.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_24.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_24.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_25.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_25.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_26.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_26.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_27.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_27.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_28.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_28.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_29.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_29.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_3.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_3.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_30.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_30.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_31.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_31.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_32.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_32.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_33.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_33.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_34.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_34.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_35.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_35.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_36.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_36.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_37.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_37.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_38.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_38.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_39.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_39.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_4.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_4.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_40.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_40.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_41.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_41.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_42.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_42.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_43.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_43.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_44.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_44.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_45.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_45.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_46.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_46.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_47.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_47.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_48.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_48.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_49.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_49.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_5.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_5.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_50.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_50.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_51.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_51.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_52.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_52.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_53.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_53.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_54.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_54.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_55.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_55.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_56.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_56.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_57.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_57.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_58.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_58.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_59.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_59.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_6.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_6.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_60.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_60.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_61.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_61.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_62.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_62.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_63.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_63.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_64.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_64.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_65.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_65.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_66.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_66.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_67.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_67.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_68.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_68.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_69.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_69.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_7.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_7.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_70.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_70.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_71.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_71.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_72.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_72.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_73.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_73.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_74.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_74.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_75.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_75.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_76.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_76.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_77.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_77.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_78.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_78.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_79.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_79.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_8.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_8.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_80.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_80.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_81.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_81.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_82.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_82.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_83.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_83.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_84.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_84.wav" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/data/segmented_data/val/steam_off/steam_off_9.wav" afterPath="$PROJECT_DIR$/data/soundtouch-coffee/raw-data/val/steam_off/steam_off_9.wav" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/configuration.py" afterPath="$PROJECT_DIR$/configuration.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/build_coffee_sound_data.py" afterPath="$PROJECT_DIR$/data/build_coffee_sound_data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/matching_networks_model.py" afterPath="$PROJECT_DIR$/matching_networks_model.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/train.py" afterPath="$PROJECT_DIR$/train.py" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MatchingNetworks-OSL$train.coverage" NAME="train Coverage Results" MODIFIED="1483391554644" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/MatchingNetworks-OSL$build_omniglot_data.coverage" NAME="build_omniglot_data Coverage Results" MODIFIED="1483750051396" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/data" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="train.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/train.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="645">
+              <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="17" />
+              <folding>
+                <element signature="e#701#739#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="0">
+                <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <folding />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build_coffee_sound_data.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/build_coffee_sound_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1248">
+              <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>moving_av</find>
+      <find>moving_av(</find>
+      <find>train_op_fun(</find>
+      <find>augment</find>
+      <find>labels.t</find>
+      <find>labels_file_di</find>
+      <find>labels_file</find>
+      <find>train_shards</find>
+      <find>num_shards</find>
+      <find>find_segmented_s</find>
+      <find>_find_files</find>
+      <find>label_index</find>
+      <find>walk</find>
+      <find>lstmcell</find>
+      <find>finished</find>
+      <find>shard</find>
+      <find>shards</find>
+      <find>find_</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/data/build_coffee_sound_data.py" />
+        <option value="$PROJECT_DIR$/matching_networks_model.py" />
+        <option value="$PROJECT_DIR$/train.py" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/data/build_omniglot_data.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ops" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MatchingNetworks-OSL" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="data" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/data/soundtouch-coffee/processed-data" />
+      <recent name="$PROJECT_DIR$/data/omniglot/raw-data" />
+      <recent name="$PROJECT_DIR$/data/soundtouch-coffee/raw-data" />
+      <recent name="$PROJECT_DIR$/data/soundtouch-coffee" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.build_omniglot_data">
+    <configuration default="false" name="train" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/train.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="build_omniglot_data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/data/build_omniglot_data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="MatchingNetworks-OSL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Attests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="py.test">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="MatchingNetworks-OSL" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="testToRun" value="" />
+      <option name="keywords" value="" />
+      <option name="params" value="" />
+      <option name="USE_PARAM" value="false" />
+      <option name="USE_KEYWORD" value="false" />
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Python.train" />
+      <item index="1" class="java.lang.String" itemvalue="Python.build_omniglot_data" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Python.build_omniglot_data" />
+        <item index="1" class="java.lang.String" itemvalue="Python.train" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8d5f4205-45bb-482d-b79d-f718da64e778" name="Default" comment="" />
+      <created>1483390972070</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1483390972070</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2484375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2802125" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934928" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997344" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851191" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="25" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="e#701#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/omniglot/Bengali/character46/0177_01.png" />
+    <entry file="file://$PROJECT_DIR$/train.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="645">
+          <caret line="55" column="17" lean-forward="false" selection-start-line="55" selection-start-column="4" selection-end-line="55" selection-end-column="17" />
+          <folding>
+            <element signature="e#701#739#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ops/inputs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2955">
+          <caret line="206" column="0" lean-forward="false" selection-start-line="206" selection-start-column="0" selection-end-line="206" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/build_coffee_sound_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1248">
+          <caret line="466" column="8" lean-forward="false" selection-start-line="466" selection-start-column="8" selection-end-line="466" selection-end-column="88" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/Cellar/python/2.7.13/Frameworks/Python.framework/Versions/2.7/lib/python2.7/threading.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="753" column="0" lean-forward="false" selection-start-line="753" selection-start-column="0" selection-end-line="753" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/omniglot/processed-data/labels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-5906">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/soundtouch-coffee/processed-data/labels.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/build_omniglot_data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1798">
+          <caret line="215" column="28" lean-forward="true" selection-start-line="215" selection-start-column="28" selection-end-line="215" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matching_networks_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="157" column="65" lean-forward="false" selection-start-line="157" selection-start-column="65" selection-end-line="157" selection-end-column="65" />
+          <folding>
+            <element signature="e#768#806#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/tensorflow/python/platform/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/lib/python2.7/site-packages/tensorflow/python/platform/flags.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="48" column="0" lean-forward="false" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

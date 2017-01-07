@@ -26,7 +26,7 @@ class ModelConfig(object):
     def __init__(self):
         """Sets the default model hyperparameters."""
         # File pattern of sharded TFRecord file containing SequenceExample protos.
-        # Must be provided in training and evaluation modes.
+        # Must be provided in training and val modes.
         self.input_file_pattern = None
 
         # Sound format ("wav").

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/Users/luna/workspace/MatchingNetworks-OSL/model/train/model.ckpt-0"
+all_model_checkpoint_paths: "/Users/luna/workspace/MatchingNetworks-OSL/model/train/model.ckpt-0"

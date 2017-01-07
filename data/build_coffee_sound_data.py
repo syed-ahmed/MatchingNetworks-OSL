@@ -47,12 +47,12 @@ import tensorflow as tf
 from tensorflow.contrib import ffmpeg
 import pickle
 
-tf.app.flags.DEFINE_string('train_directory', "/Users/luna/Desktop/osl-soundtouch/data/segmented_data/train",
+tf.app.flags.DEFINE_string('train_directory', "/Users/luna/workspace/MatchingNetworks-OSL/data/segmented_data/train",
                            'Training data directory')
-tf.app.flags.DEFINE_string('validation_directory', "/Users/luna/Desktop/osl-soundtouch/data/segmented_data/val",
+tf.app.flags.DEFINE_string('validation_directory', "/Users/luna/workspace/MatchingNetworks-OSL/data/segmented_data/val",
                            'Validation data directory')
 
-tf.flags.DEFINE_string("output_dir", "/Users/luna/Desktop/osl-soundtouch/data/processed_data",
+tf.flags.DEFINE_string("output_dir", "/Users/luna/Desktop/workspace/MatchingNetworks-OSL/processed_data",
                        "Output data directory.")
 
 tf.app.flags.DEFINE_integer('train_shards', 1,
@@ -75,10 +75,10 @@ tf.flags.DEFINE_bool("segment_audio", False,
 tf.flags.DEFINE_integer("sampling_rate", 44100,
                         "Sampling rate of the raw audio.")
 
-tf.flags.DEFINE_string("sound_dir", "/Users/luna/Desktop/osl-soundtouch/data",
+tf.flags.DEFINE_string("sound_dir", "/Users/luna/workspace/MatchingNetworks-OSL/data",
                        "Training sound directory.")
 
-tf.flags.DEFINE_string("labels_file_dir", "/Users/luna/Desktop/osl-soundtouch/data/labels.txt",
+tf.flags.DEFINE_string("labels_file_dir", "/Users/luna/workspace/MatchingNetworks-OSL/data/labels.txt",
                        "Labels file directory.")
 
 FLAGS = tf.flags.FLAGS
